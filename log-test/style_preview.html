@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Insights Styling Preview</title>
+    <style>
+        .ai-response {
+            background: #000000;
+            border: 2px solid #1f77b4;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        .ai-response h1, .ai-response h2, .ai-response h3, .ai-response h4, .ai-response h5, .ai-response h6 {
+            color: #00bfff;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .ai-response p {
+            color: #ffffff;
+            margin-bottom: 0.8rem;
+        }
+        .ai-response ul, .ai-response ol {
+            color: #ffffff;
+            margin-left: 1.5rem;
+        }
+        .ai-response li {
+            color: #ffffff;
+            margin-bottom: 0.3rem;
+        }
+        .ai-response strong, .ai-response b {
+            color: #00bfff;
+            font-weight: bold;
+        }
+        .ai-response code {
+            background-color: #333333;
+            color: #00ff00;
+            padding: 0.2rem 0.4rem;
+            border-radius: 0.3rem;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI Insights Styling Preview</h1>
+    
+    <div class="ai-response">
+        <h2>Log Analysis Report - 2025-09-19</h2>
+        
+        <h3>1. Overall Health Assessment:</h3>
+        <p><strong>Rating:</strong> 5/10</p>
+        <p><strong>Explanation:</strong> While the majority of logs are informational (60%), the presence of a significant number of warnings (25%), errors (12%), and critical issues (3%) indicates underlying problems that need immediate attention.</p>
+        
+        <h3>2. Key Patterns Identified:</h3>
+        <ul>
+            <li><strong>Database Issues:</strong> Multiple connection timeouts and query failures</li>
+            <li><strong>Authentication Problems:</strong> Failed login attempts and token validation errors</li>
+            <li><strong>Service Degradation:</strong> High response times and resource exhaustion</li>
+        </ul>
+        
+        <h3>3. Recommendations:</h3>
+        <ol>
+            <li>Investigate database connection pool configuration</li>
+            <li>Review authentication service health</li>
+            <li>Monitor resource usage patterns</li>
+            <li>Implement circuit breakers for failing services</li>
+        </ol>
+        
+        <h3>4. Code Example:</h3>
+        <p>Consider implementing this monitoring check:</p>
+        <code>if error_rate > 0.1: trigger_alert()</code>
+    </div>
+    
+    <p><em>This preview shows how the AI insights will appear in your dashboard with improved readability.</em></p>
+</body>
+</html>
