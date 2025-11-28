@@ -9,11 +9,10 @@ if [ ! -f .env ]; then
     echo "⚠️  .env file not found. Creating from template..."
     cat > .env << EOF
 # Gemini API Configuration
-GEMINI_API_KEY=AIzaSyCF7ZF63ss7KSxGAP_WQorsWr2iEHb_ix4
-
+GEMINI_API_KEY=api
 # Telegram Bot Configuration
-TELEGRAM_BOT_TOKEN=8099428200:AAH2nsScHbbagxhhDOSzOicxduH-efNTqKk
-TELEGRAM_CHAT_ID=5040089366
+TELEGRAM_BOT_TOKEN=key
+TELEGRAM_CHAT_ID=key
 
 # Application Configuration
 LOG_LEVEL=INFO
